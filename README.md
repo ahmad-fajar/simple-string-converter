@@ -1,2 +1,3 @@
 # simple-string-converter
-Tugas ini dibuat untuk memenuhi sebagian persyaratan lulus Phase0 Hacktiv8 (lo kata tesis/skripsi? lol)
+- Weekly project (week5) phase0 Hacktiv8
+- Merubah input dalam bentuk string menjadi kode dalam bentuk kode ASCII, biner, hex, dan oct.
