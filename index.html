@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="String to Code Converter v.1.1">
+  <meta name="viewport" content="width=device-width">
+  <title>String to Code Converter</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+
+    textarea {
+      margin: 10px 0 10px 0;
+      resize: none;
+      width: 100%;
+    }
+
+    hr {
+      margin: 10px 0 10px 0;
+      width: 100%;
+    }
+
+    #head {
+      background-color: #c0c0c0;
+      padding: 20px;
+      text-align: center;
+    }
+
+  	.output {
+      display: inline-block;
+      margin-left: 0;
+  	  margin-right: 0;
+      width: 49.5%;
+  	}
+
+    #main {
+      margin: auto;
+      padding: 10px;
+      width : 70%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id='head'>
+    <h1>Simple String to Code Converter</h1>
+    <h3>Convert String to ASCII, Bin, Hex, and Oct Codes</h3>
+  </div>
+
+  <div id='main'>
+
+    <div>
+      <b>String</b>
+      <br/>
+      <textarea id='string-box' type='text' placeholder='Type any string here' rows='10'></textarea>
+    </div>
+
+    <hr/>
+
+    <div>
+
+      <div class='output'>
+        <b>ASCII</b>
+        <br/>
+        <textarea id='ascii-box' type='text' readonly='readonly' rows='10'></textarea>
+      </div>
+
+      <div class='output'>
+        <b>Binary</b>
+        <br/>
+        <textarea id='bin-box' type='text' readonly='readonly' rows='10'></textarea>
+      </div>
+
+      <div class='output'>
+        <b>Hex</b>
+        <br/>
+        <textarea id='hex-box' type='text' readonly='readonly' rows='10'></textarea>
+      </div>
+
+      <div class='output'>
+        <b>Oct</b>
+        <br/>
+        <textarea id='oct-box' type='text' readonly='readonly' rows='10'></textarea>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src='script.js'></script>
+</body>
+
+</html>
